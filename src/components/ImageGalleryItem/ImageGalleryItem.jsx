@@ -6,7 +6,6 @@ import {
 import PropTypes from 'prop-types';
 
 export const ImageGalleryItem = ({ images, onModal }) => {
-  console.log(images);
   return images.map(image => {
     return (
       <ImageGalleryItemStyled key={image.id}>
